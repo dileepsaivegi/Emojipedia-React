@@ -21,7 +21,9 @@ function App() {
       <h1>
         <span>emojipedia</span>
       </h1>
+      <dl className="dictionary">
       {emojipedia.map(createMap)}
+      </dl>
     </div>
   );
 }
